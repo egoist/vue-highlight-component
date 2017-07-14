@@ -22,13 +22,17 @@
   "devDependencies": {
     "bili": "^0.17.0",
     "eslint-config-rem": "^3.0.0",
+    "highlight.js": "^9.12.0",
     "xo": "^0.18.0"
   },
   "xo": {
     "extends": "rem/prettier",
     "ignores": [
       "example/**"
-    ]
+    ],
+    "rules": {
+      "import/extensions": 0
+    }
   },
   "peerDependencies": {
     "highlight.js": "^9.12.0"
