@@ -33,6 +33,9 @@ export default {
   }
 }
 </script>
+
+<!-- Don't forget to include a preferred them -->
+<style src="highlight.js/styles/github.css"></style>
 ```
 
 You can also use a prop `code` to set the code you wanna highlight:
