@@ -34,7 +34,7 @@ export default {
 }
 </script>
 
-<!-- Don't forget to include a preferred them -->
+<!-- Don't forget to include a preferred theme -->
 <style src="highlight.js/styles/github.css"></style>
 ```
 
