@@ -17,7 +17,7 @@ yarn add highlight.js vue-highlight-component
 
 <script>
 import hljs from 'highlight.js'
-import Highlight from 'vue-Highlight-component'
+import Highlight from 'vue-highlight-component'
 
 // Register the language if it's not supported by default
 hljs.registerLanguage('swift', require('highlight.js/lib/languages/swift'))
