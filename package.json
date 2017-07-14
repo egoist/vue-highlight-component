@@ -1,6 +1,6 @@
 {
   "name": "vue-highlight-component",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "highlight code using highlight.js and vue component.",
   "repository": {
     "url": "egoist/vue-highlight-component",
@@ -26,7 +26,9 @@
   },
   "xo": {
     "extends": "rem/prettier",
-    "ignores": ["example/**"]
+    "ignores": [
+      "example/**"
+    ]
   },
   "peerDependencies": {
     "highlight.js": "^9.12.0"
