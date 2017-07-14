@@ -1,0 +1,33 @@
+{
+  "name": "vue-highlight-component",
+  "version": "0.0.0",
+  "description": "highlight code using highlight.js and vue component.",
+  "repository": {
+    "url": "egoist/vue-highlight-component",
+    "type": "git"
+  },
+  "main": "dist/index.common.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo 'no tests!' && npm run lint",
+    "lint": "xo",
+    "prepublish": "npm run build",
+    "build": "bili --filename index"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "bili": "^0.17.0",
+    "eslint-config-rem": "^3.0.0",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "extends": "rem"
+  },
+  "peerDependencies": {
+    "highlight.js": "^9.12.0"
+  }
+}
